@@ -31,7 +31,7 @@ class CalorieCounter {
     }
 
     var hamburgersICanStillEatToday: Int {
-        return (maxDailyCalories - totalCaloriesConsumedToday) / caloriesPerBurger
+        return maxDailyCalories - totalCaloriesConsumedToday / caloriesPerBurger
     }
 }
 
@@ -39,12 +39,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let counter = CalorieCounter()
-        counter.caloriesPerBurger = 0
-        print(counter.hamburgersICanStillEatToday) // crash
-
-//        counter.add(caloriesToAdd: 9223372036854775807)
 
     }
 
