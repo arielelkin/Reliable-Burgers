@@ -10,6 +10,18 @@ import XCTest
 @testable import Reliable_Burgers
 
 class Reliable_BurgersTests: XCTestCase {
+
+    func testHamburgersICanStillEatTodayReturnsWithinRange() {
+        let counter = CalorieCounter()
+        XCTAssert(counter.hamburgersICanStillEatToday <= 4, "we should NOT recommend eating more than four hamburgers a day!")
+        XCTAssert(counter.hamburgersICanStillEatToday >= 0)
+    }
+
+    func testHamburgerHasValidNumberOfCaloriesWhenSetToZero() {
+        let counter = CalorieCounter()
+        counter.caloriesPerBurger = 0
+        XCTAssert(counter.caloriesPerBurger == 550)
+    }
     
     override func setUp() {
         super.setUp()

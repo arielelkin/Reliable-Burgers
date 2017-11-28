@@ -8,11 +8,44 @@
 
 import UIKit
 
+enum CalorieCounterError: Error {
+    case InvalidCaloriesPerHamburger
+}
+
+class CalorieCounter {
+
+    let maxDailyCalories = 2200
+
+    var caloriesPerBurger = 550 {
+        didSet {
+            if caloriesPerBurger <= 0 {
+                caloriesPerBurger = 550
+            }
+        }
+    }
+
+    private var totalCaloriesConsumedToday = 0
+
+    func add(caloriesToAdd: Int) {
+        totalCaloriesConsumedToday += caloriesToAdd
+    }
+
+    var hamburgersICanStillEatToday: Int {
+        return (maxDailyCalories - totalCaloriesConsumedToday) / caloriesPerBurger
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let counter = CalorieCounter()
+        counter.caloriesPerBurger = 0
+        print(counter.hamburgersICanStillEatToday) // crash
+
+//        counter.add(caloriesToAdd: 9223372036854775807)
+
     }
 
     override func didReceiveMemoryWarning() {
