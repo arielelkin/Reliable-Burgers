@@ -31,7 +31,7 @@ class CalorieCounter {
     }
 
     var hamburgersICanStillEatToday: Int {
-        return maxDailyCalories - totalCaloriesConsumedToday / caloriesPerBurger
+        return (maxDailyCalories - totalCaloriesConsumedToday) / caloriesPerBurger
     }
 }
 
