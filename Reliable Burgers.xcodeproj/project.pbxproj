@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CCE6666256F55EF34095DDD /* Pods_Reliable_Burgers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DA5C2509C751F677C3F5D2 /* Pods_Reliable_Burgers.framework */; };
 		B06F59E61FC8B07B00B66404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F59E51FC8B07B00B66404 /* AppDelegate.swift */; };
 		B06F59E81FC8B07B00B66404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F59E71FC8B07B00B66404 /* ViewController.swift */; };
 		B06F59EB1FC8B07B00B66404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06F59E91FC8B07B00B66404 /* Main.storyboard */; };
 		B06F59ED1FC8B07B00B66404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06F59EC1FC8B07B00B66404 /* Assets.xcassets */; };
 		B06F59F01FC8B07B00B66404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06F59EE1FC8B07B00B66404 /* LaunchScreen.storyboard */; };
 		B06F59FB1FC8B07B00B66404 /* Reliable_BurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F59FA1FC8B07B00B66404 /* Reliable_BurgersTests.swift */; };
+		B81348C5213DFF5DA3C218EF /* Pods_Reliable_BurgersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6337716724DD8E11078B46ED /* Pods_Reliable_BurgersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6337716724DD8E11078B46ED /* Pods_Reliable_BurgersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reliable_BurgersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DA5C2509C751F677C3F5D2 /* Pods_Reliable_Burgers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reliable_Burgers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A113110D4265106E7BFC1B2 /* Pods-Reliable Burgers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reliable Burgers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reliable Burgers/Pods-Reliable Burgers.release.xcconfig"; sourceTree = "<group>"; };
+		95C003F76EF50E8921F0C5F4 /* Pods-Reliable Burgers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reliable Burgers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reliable Burgers/Pods-Reliable Burgers.debug.xcconfig"; sourceTree = "<group>"; };
+		9A5261EF38F291F275AD3DF3 /* Pods-Reliable BurgersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reliable BurgersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reliable BurgersTests/Pods-Reliable BurgersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B06F59E21FC8B07B00B66404 /* Reliable Burgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reliable Burgers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06F59E51FC8B07B00B66404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B06F59E71FC8B07B00B66404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		B06F59F61FC8B07B00B66404 /* Reliable BurgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reliable BurgersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06F59FA1FC8B07B00B66404 /* Reliable_BurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reliable_BurgersTests.swift; sourceTree = "<group>"; };
 		B06F59FC1FC8B07B00B66404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54A7316FDADE006E6C4972C /* Pods-Reliable BurgersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reliable BurgersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reliable BurgersTests/Pods-Reliable BurgersTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCE6666256F55EF34095DDD /* Pods_Reliable_Burgers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81348C5213DFF5DA3C218EF /* Pods_Reliable_BurgersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1538FC86512BA4066CF94EE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79DA5C2509C751F677C3F5D2 /* Pods_Reliable_Burgers.framework */,
+				6337716724DD8E11078B46ED /* Pods_Reliable_BurgersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F1BA11FF01A7D6A04B9AF6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C003F76EF50E8921F0C5F4 /* Pods-Reliable Burgers.debug.xcconfig */,
+				7A113110D4265106E7BFC1B2 /* Pods-Reliable Burgers.release.xcconfig */,
+				9A5261EF38F291F275AD3DF3 /* Pods-Reliable BurgersTests.debug.xcconfig */,
+				F54A7316FDADE006E6C4972C /* Pods-Reliable BurgersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B06F59D91FC8B07B00B66404 = {
 			isa = PBXGroup;
 			children = (
 				B06F59E41FC8B07B00B66404 /* Reliable Burgers */,
 				B06F59F91FC8B07B00B66404 /* Reliable BurgersTests */,
 				B06F59E31FC8B07B00B66404 /* Products */,
+				3F1BA11FF01A7D6A04B9AF6E /* Pods */,
+				1538FC86512BA4066CF94EE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B06F59FF1FC8B07B00B66404 /* Build configuration list for PBXNativeTarget "Reliable Burgers" */;
 			buildPhases = (
+				E7CCFEAE0D60214CADBF8394 /* [CP] Check Pods Manifest.lock */,
 				B06F59DE1FC8B07B00B66404 /* Sources */,
 				B06F59DF1FC8B07B00B66404 /* Frameworks */,
 				B06F59E01FC8B07B00B66404 /* Resources */,
+				613944DD2520760CD5FB4132 /* [CP] Embed Pods Frameworks */,
+				F27C8AC9F865FEE95196BC57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B06F5A021FC8B07B00B66404 /* Build configuration list for PBXNativeTarget "Reliable BurgersTests" */;
 			buildPhases = (
+				8CB41D96DEAFCC77B1F97EC0 /* [CP] Check Pods Manifest.lock */,
 				B06F59F21FC8B07B00B66404 /* Sources */,
 				B06F59F31FC8B07B00B66404 /* Frameworks */,
 				B06F59F41FC8B07B00B66404 /* Resources */,
+				88A99AEF8E5C8A6969BEF3A5 /* [CP] Embed Pods Frameworks */,
+				1F69BA609020D91296415A3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F69BA609020D91296415A3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reliable BurgersTests/Pods-Reliable BurgersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613944DD2520760CD5FB4132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reliable Burgers/Pods-Reliable Burgers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A99AEF8E5C8A6969BEF3A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reliable BurgersTests/Pods-Reliable BurgersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB41D96DEAFCC77B1F97EC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reliable BurgersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CCFEAE0D60214CADBF8394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reliable Burgers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27C8AC9F865FEE95196BC57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reliable Burgers/Pods-Reliable Burgers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B06F59DE1FC8B07B00B66404 /* Sources */ = {
@@ -351,14 +488,19 @@
 		};
 		B06F5A001FC8B07B00B66404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C003F76EF50E8921F0C5F4 /* Pods-Reliable Burgers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5QV278N9U;
 				INFOPLIST_FILE = "Reliable Burgers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sitepoint.ReliableBurgers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,14 +508,18 @@
 		};
 		B06F5A011FC8B07B00B66404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A113110D4265106E7BFC1B2 /* Pods-Reliable Burgers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5QV278N9U;
 				INFOPLIST_FILE = "Reliable Burgers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sitepoint.ReliableBurgers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +527,7 @@
 		};
 		B06F5A031FC8B07B00B66404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5261EF38F291F275AD3DF3 /* Pods-Reliable BurgersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +545,7 @@
 		};
 		B06F5A041FC8B07B00B66404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54A7316FDADE006E6C4972C /* Pods-Reliable BurgersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

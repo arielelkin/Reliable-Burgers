@@ -1,0 +1,6 @@
+framework module Pods_Reliable_Burgers {
+  umbrella header "Pods-Reliable Burgers-umbrella.h"
+
+  export *
+  module * { export * }
+}

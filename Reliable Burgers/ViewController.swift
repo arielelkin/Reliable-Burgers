@@ -7,6 +7,14 @@
 //
 
 import UIKit
+import AppCenterAnalytics
+import AppCenterCrashes
+
+class AnalyticsConstants {
+
+    static let ViewedProduct = "Viewed Product"
+    // ... etc
+}
 
 enum CalorieCounterError: Error {
     case InvalidCaloriesPerHamburger
@@ -40,13 +48,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        MSAnalytics.trackEvent(AnalyticsConstants.ViewedProduct, withProperties: ["ID": "23432", "Name": "Bacon Burger"])
+
+        Timer.scheduledTimer(withTimeInterval: 4, repeats: false) { (timer) in
+            MSCrashes.generateTestCrash()
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
